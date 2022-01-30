@@ -1,0 +1,83 @@
+{
+  "tableData": [
+    {
+      "name": "tasksOverview",
+      "heading": "Tasks Overview",
+      "subheading": "Pending 10 tasks",
+      "data": [
+        {
+          "id": 1,
+          "title": "Top Authors",
+          "subtitle": "Successful Fellas",
+          "complete": 70
+        },
+        {
+          "id": 2,
+          "title": "Popular Authors",
+          "subtitle": "Most Successful",
+          "complete": 50
+        },
+        {
+          "id": 3,
+          "title": "New Users",
+          "subtitle": "Awesome Users",
+          "complete": 80
+        },
+        {
+          "id": 4,
+          "title": "Active Customers",
+          "subtitle": "Best Customers",
+          "complete": 90
+        },
+        {
+          "id": 5,
+          "title": "Bestseller Theme",
+          "subtitle": "Amazing Templates",
+          "complete": 70
+        }
+      ]
+    },
+    {
+      "name": "latestArrivals",
+      "heading": "Latest Arrivals",
+      "subheading": "More than 100 new products",
+      "data": [
+        {
+          "id": 1,
+          "title": "Top Authors",
+          "subtitle": "Successful Fellas",
+          "technology": ["Angular", "PHP"],
+          "users": 4600
+        },
+        {
+          "id": 2,
+          "title": "Popular Authors",
+          "subtitle": "Most Successful",
+          "technology": ["HTML", "CSS"],
+          "users": 7200
+        },
+        {
+          "id": 3,
+          "title": "New Users",
+          "subtitle": "Awesome Users",
+          "technology": ["React", "SASS"],
+          "users": 890
+        },
+        {
+          "id": 4,
+          "title": "Active Customers",
+          "subtitle": "Best Customers",
+          "technology": ["JAVA", "PHP"],
+          "users": 6370
+        },
+        {
+          "id": 5,
+          "title": "Bestseller Theme",
+          "subtitle": "Amazing Templates",
+          "technology": ["Python", "MySQL"],
+          "users": 354
+        }
+      ]
+    }
+  ]
+}
