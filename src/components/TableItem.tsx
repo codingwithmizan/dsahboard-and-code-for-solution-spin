@@ -44,8 +44,8 @@ const TableItem: FC<TableItemProps> = ({ tableData }) => {
       </div>
       <table className="table-auto w-full">
         <tbody>
-          {tableData.data.map((item: any) => (
-            <tr>
+          {tableData.data.map((item: any, i:number) => (
+            <tr key={i}>
               <td>{getIcon(item.id)}</td>
               <td className=' text-center'>
                 <h4 className="sm:text-3xl text-gray-600  ">{item.title}</h4>
@@ -68,6 +68,7 @@ const TableItem: FC<TableItemProps> = ({ tableData }) => {
                   <td className=" hidden xs:block relative top-5">
                     {item?.technology?.map((tech: string, index: number) => (
                       <span
+                      key={index}
                         className={` px-1 sx:px-2 text-sm xs:text-base rounded -mt-2 ${
                           index === 0
                             ? "bg-red-100 text-red-600 mr-2"

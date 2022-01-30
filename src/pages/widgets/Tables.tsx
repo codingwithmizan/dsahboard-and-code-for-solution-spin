@@ -35,8 +35,8 @@ const Tables = () => {
       <div className="mx-6 grid xl:grid-cols-2 gap-8">
         {tableData.length > 0 ? (
           <>
-            {tableData?.map((tblData) => (
-              <TableItem tableData={tblData} />
+            {tableData?.map((tblData:any, i:number) => (
+              <TableItem key={i}tableData={tblData} />
             ))}
           </>
         ) : (
